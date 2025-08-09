@@ -1,0 +1,14 @@
+{
+  "name": "cy-pageobjects",
+  "version": "1.0.0",
+  "description": "Execicio page objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "renanferreira",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.4"
+  }
+}
