@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
 const { homePage }   = require('../support/pages/home.page');
-const loginPage      = require('../support/pages/login.page'); // exporta instância
+const loginPage      = require('../support/pages/login.page');
 const { email, senha } = require('../fixtures/data.json');
 const { profilePage } = require('../support/pages/profile.page');
 
-describe('Teste de Autenticação', () => {
+describe('Teste de Login', () => {
   beforeEach(() => {
     cy.setCookie('ebacStoreVersion', 'v2', { domain: 'lojaebac.ebaconline.art.br' });
     cy.visit('/');
